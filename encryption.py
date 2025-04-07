@@ -23,7 +23,7 @@ def key(unscrambled):
     for i in range(27):
         scrambled[i] = unscrambled[i]
 while True:
-    unscrambled = list(input("Enter your entire message: "))
+    unscrambled = list(lower(input("Enter your entire message: ")))
     prompt = input("Do you want to encrypt, decrypt, or enter a key? ")
     if prompt == "encrypt":
         cipher(unscrambled)
