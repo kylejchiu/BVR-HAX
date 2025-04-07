@@ -1,19 +1,19 @@
-# print("Hello World")
-# age = 15
-# name = "Kyle"
-# favorite_color = "Teal"
-# string = "Hello!"
-# integer = 1000
-# float = 0.5
-# boolean = True
-# length = int(input("Please enter the length: "))
-# width = int(input("Please enter the width: "))
-# area = width * length
-# print(area)
-# noun = input("Please enter a noun: ")
-# verb = input("Please enter an verb: ")
-# adjective = input("Please enter an adjective: ")
-# print("The " + adjective + " " + noun + " will " + verb + ".")
+print("Hello World")
+age = 15
+name = "Kyle"
+favorite_color = "Teal"
+string = "Hello!"
+integer = 1000
+float = 0.5
+boolean = True
+length = int(input("Please enter the length: "))
+width = int(input("Please enter the width: "))
+area = width * length
+print(area)
+noun = input("Please enter a noun: ")
+verb = input("Please enter an verb: ")
+adjective = input("Please enter an adjective: ")
+print("The " + adjective + " " + noun + " will " + verb + ".")
 score = int(input("What was your score?"))
 if (score > 100):
     print("You cheated!")
